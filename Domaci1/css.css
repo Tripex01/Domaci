@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 1;
+  border-radius: 100px;
+}
+.parent {
+  border: 2px solid rgb(201, 199, 199);
+  padding: 1px;
+  padding: 14px;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.parent h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.iconDiv {
+  padding: 5px;
+}

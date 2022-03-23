@@ -1,0 +1,68 @@
+body {
+  box-sizing: border-box;
+}
+.logo,
+.logo2,
+.linkovi,
+.linkovi2,
+.spoljasni {
+  display: inline-block;
+}
+
+.spoljasni {
+  margin-right: 20px;
+  position: relative;
+}
+
+.linkovi2 h2 {
+  display: inline-block;
+  margin-right: 20px;
+}
+.izbor {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.unutrasnji {
+  position: absolute;
+  top: 80px;
+  visibility: hidden;
+  width: 1000px;
+  height: 300px;
+}
+
+.linkovi > .spoljasni:hover > .unutrasnji {
+  background-color: whitesmoke;
+  visibility: visible;
+}
+
+.izbor img {
+  width: 50px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.izbor h3 {
+  display: inline;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.spoljasni h2:hover {
+  background-color: black;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+
+.unutrasnji .izbor .gornji {
+  border-bottom: 1px solid grey;
+}
+
+.prvi {
+  color: rgb(0, 34, 255);
+}
+
+.poslednji {
+  color: red;
+}

@@ -1,0 +1,78 @@
+.imgClass {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+
+.kutija {
+  padding: 15px;
+  border: solid 1px rgb(75, 75, 75);
+  width: 300px;
+  height: 315px;
+  background-color: rgba(31, 31, 31, 0.993);
+  color: white;
+  border-radius: 15px;
+  margin: 30px 50px;
+}
+
+h1 {
+  font-size: large;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h6 {
+  color: rgb(131, 131, 131);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 9px;
+}
+
+body {
+  background-color: black;
+}
+
+.slika {
+  margin-top: -18px;
+  margin-left: -6px;
+  border-radius: 10px;
+  height: 140px;
+  width: 310px;
+}
+
+.strela {
+  height: 50px;
+}
+
+.poruka {
+  height: 20px;
+  color: grey;
+}
+
+.ikona1 {
+  width: 40px;
+  height: 30px;
+  color: grey;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.ikona2 {
+  color: grey;
+  margin: 0 auto;
+  height: 30px;
+  width: 16px;
+  margin-top: -28px;
+}
+
+.ikona3 {
+  color: grey;
+  margin: 0 auto;
+  height: 30px;
+  width: 40px;
+  margin-top: -32px;
+  margin-right: -17px;
+}

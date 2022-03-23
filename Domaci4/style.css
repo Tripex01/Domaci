@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: 20%;
+}
+
+.pr-linija {
+  background-color: rgb(229, 231, 235);
+  width: 5px;
+  height: 765px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.card {
+  width: 881px;
+  height: 162px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 15px;
+}
+
+.ikona1 {
+  font-size: 90px;
+}
+
+.ikona {
+  font-size: 100px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: 38px;
+  margin-top: 19px;
+  color: rgb(99, 102, 241);
+  position: absolute;
+}
+
+.content {
+  width: 726px;
+  height: 175px;
+  margin-left: 204px;
+  margin-top: 41px;
+  font-weight: 10;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.broj1,
+.broj2,
+.broj3,
+.broj4 {
+  position: absolute;
+  margin-left: -2.5px;
+  font-size: 13px;
+  color: white;
+  padding: 2px;
+}
+
+.borderi1,
+.borderi2,
+.borderi3,
+.borderi4 {
+  margin-left: -8px;
+  width: 22px;
+  height: 22px;
+  background-color: rgb(99, 102, 241);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.borderi1 {
+  margin-top: 127px;
+  z-index: 1;
+}
+
+.borderi2 {
+  margin-top: 329px;
+  z-index: 2;
+}
+
+.borderi3 {
+  margin-top: 520px;
+  z-index: 3;
+}
+
+.borderi4 {
+  margin-top: 713px;
+  z-index: 4;
+}
+
+.broj1 {
+  margin-top: 129px;
+  z-index: 10;
+}
+
+.broj2 {
+  margin-top: 331px;
+  z-index: 11;
+}
+
+.broj3 {
+  margin-top: 522px;
+  z-index: 12;
+}
+
+.broj4 {
+  margin-top: 715px;
+  margin-left: -4px;
+  z-index: 13;
+}
